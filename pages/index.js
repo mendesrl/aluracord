@@ -31,21 +31,21 @@ function GlobalStyle() {
   );
 }
 
-function Title(props) {
-  const Tag = props.tag;
-  return (
-    <>
-      <Tag> {props.children} </Tag>
-      <style jsx>{`
-        ${Tag} {
-          color: ${appConfig.theme.colors.neutrals['000']};
-          font-size: 24px;
-          font-weight: 600;
-        }
-      `}</style>
-    </>
-  );
-}
+// function Title(props) {
+//   const Tag = props.tag;
+//   return (
+//     <>
+//       <Tag> {props.children} </Tag>
+//       <style jsx>{`
+//         ${Tag} {
+//           color: ${appConfig.theme.colors.neutrals['000']};
+//           font-size: 24px;
+//           font-weight: 600;
+//         }
+//       `}</style>
+//     </>
+//   );
+// }
 
 // function HomePage() {
 //   return (
@@ -89,7 +89,7 @@ function Titulo(props) {
   // export default HomePage
   
   export default function PaginaInicial() {
-    const username = 'peas';
+    const username = 'mendesrl';
   
     return (
       <>
@@ -125,7 +125,7 @@ function Titulo(props) {
                 width: { xs: '100%', sm: '50%' }, textAlign: 'center', marginBottom: '32px',
               }}
             >
-              <Titulo tag="h2">Boas vindas de volta!</Titulo>
+              <Titulo tag="h2">Bem vindx!</Titulo>
               <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[300] }}>
                 {appConfig.name}
               </Text>
